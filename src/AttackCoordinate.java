@@ -1,8 +1,7 @@
 public class AttackCoordinate extends Coordinate {
     private boolean isHit;
     AttackCoordinate(int r, int c){
-        setRow(r);
-        setCol(c);
+        super(r,c);
     }
     public boolean getIsHit(){
         return isHit;
